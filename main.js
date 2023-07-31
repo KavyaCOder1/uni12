@@ -2,7 +2,7 @@ const { Telegraf, session, Extra, Markup, Scenes } = require('telegraf');
 const { BaseScene, Stage } = Scenes
 const { enter, leave } = Stage
 const stage = new Stage()
-const  { Web3 } = require('web3')
+const   Web3  = require('web3')
 
 
 const mongo = require('mongodb').MongoClient;
